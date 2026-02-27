@@ -1,0 +1,33 @@
+.trust-section {
+  padding: 50px 20px;
+  background-color: white;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+
+.trust-section h3 {
+  font-size: 20px;
+  color: #1e1e2f;
+  margin-bottom: 30px;
+}
+
+.trust-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.trust-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #888ea2;
+  font-size: 19px;
+}
+
+.trust-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 5px;
+}

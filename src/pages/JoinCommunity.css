@@ -1,0 +1,53 @@
+/* components/JoinCommunity.css */
+.join-community {
+  background-color: #d400ff21;
+  color: rgb(0, 0, 0);
+  padding: 60px 20px;
+  text-align: center;
+  width: 100vw; /* full screen width */
+  margin: 0;
+  margin-top: 15px;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+
+.join-community h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.join-community p {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.join-community .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.join-community button {
+  padding: 10px 20px;
+  background-color: rgb(202, 6, 228);
+  color: #f8f8f8;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.join-community .outlined {
+  background-color:rgb(228, 32, 218);
+  color: rgb(255, 255, 255);
+}
+
+.join-community button:hover {
+  opacity: 0.9;
+  background-color: rgba(240, 255, 255, 0.021);
+  color: rgb(64, 0, 70);
+  border: 1px solid black ;
+}
