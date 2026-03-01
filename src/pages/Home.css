@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .hero-section {
-  background: url("/bg_1.PNG") center/cover no-repeat; /* Replace with your path */
+  background: url("/bg_1.png") center/cover no-repeat; /* Replace with your path */
   height: 80vh;
   width:100vw;
    margin: 0;
